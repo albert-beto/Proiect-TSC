@@ -46,7 +46,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -3069,7 +3069,7 @@ IPC High Density</description>
 </via>
 <via x="164.5" y="-230" extent="1-16" drill="0.3" alwaysstop="yes">
 </via>
-<via x="170.3" y="-230.6" extent="1-16" drill="0.2" alwaysstop="yes">
+<via x="170.3" y="-230.6" extent="1-16" drill="0.3" alwaysstop="yes">
 </via>
 <wire x1="149.705" y1="-237.86" x2="149.705" y2="-238.36" width="0.1524" layer="1"/>
 <wire x1="160.1" y1="-240.9" x2="159.5" y2="-240.3" width="0.1524" layer="1"/>
@@ -3268,8 +3268,10 @@ IPC High Density</description>
 <wire x1="153.9" y1="-245.6" x2="154" y2="-245.7" width="0.3048" layer="15"/>
 <via x="151.1" y="-235.8" extent="1-16" drill="0.35" alwaysstop="yes">
 </via>
-<wire x1="150.5" y1="-238.1" x2="150.5" y2="-236.4" width="0.3048" layer="15"/>
-<wire x1="150.5" y1="-236.4" x2="151.1" y2="-235.8" width="0.3048" layer="15"/>
+<wire x1="150.2" y1="-236.2" x2="150.2" y2="-237.8" width="0.3048" layer="15"/>
+<wire x1="150.5" y1="-238.1" x2="150.2" y2="-237.8" width="0.3048" layer="15"/>
+<wire x1="150.6" y1="-235.8" x2="151.1" y2="-235.8" width="0.3048" layer="15"/>
+<wire x1="150.6" y1="-235.8" x2="150.2" y2="-236.2" width="0.3048" layer="15"/>
 <wire x1="149.87" y1="-240.575" x2="149.375" y2="-241.07" width="0.3048" layer="1"/>
 <wire x1="149.375" y1="-241.07" x2="149.375" y2="-243.125" width="0.3048" layer="1"/>
 <wire x1="150.805" y1="-237.86" x2="150.565" y2="-238.1" width="0.3048" layer="1"/>
@@ -3285,11 +3287,11 @@ IPC High Density</description>
 <wire x1="154" y1="-247.1" x2="157.8" y2="-247.1" width="0.3048" layer="15"/>
 <wire x1="157.8" y1="-247.1" x2="159.375" y2="-245.525" width="0.3048" layer="15"/>
 <wire x1="159.375" y1="-245.525" x2="159.375" y2="-244.125" width="0.3048" layer="15"/>
-<wire x1="159.375" y1="-244.125" x2="159.375" y2="-239.5" width="0.3048" layer="15"/>
-<wire x1="159.375" y1="-239.5" x2="158.15" y2="-238.275" width="0.3048" layer="15"/>
+<wire x1="159.975" y1="-240.1" x2="159.975" y2="-243.525" width="0.3048" layer="15"/>
+<wire x1="159.375" y1="-244.125" x2="159.975" y2="-243.525" width="0.3048" layer="15"/>
+<wire x1="159.975" y1="-240.1" x2="158.15" y2="-238.275" width="0.3048" layer="15"/>
 <wire x1="155.3" y1="-230.4" x2="155.3" y2="-235.025" width="0.3048" layer="15"/>
 <wire x1="155.3" y1="-235.025" x2="155.3" y2="-235.425" width="0.3048" layer="15"/>
-<wire x1="155.3" y1="-235.425" x2="158.15" y2="-238.275" width="0.3048" layer="15"/>
 <wire x1="154.5" y1="-235.825" x2="155.3" y2="-235.025" width="0.3048" layer="15"/>
 <wire x1="151.1" y1="-235.8" x2="151.1" y2="-235.500009375" width="0.3048" layer="1"/>
 <wire x1="151.1" y1="-235.500009375" x2="149.705" y2="-236.895" width="0.3048" layer="1"/>
@@ -3298,6 +3300,14 @@ IPC High Density</description>
 <wire x1="151.9" y1="-240.945" x2="151.9" y2="-241.3" width="0.3048" layer="1"/>
 <wire x1="151.5" y1="-242.4" x2="151.9" y2="-242" width="0.3048" layer="1"/>
 <wire x1="151.9" y1="-242" x2="151.9" y2="-241.3" width="0.3048" layer="1"/>
+<wire x1="158.15" y1="-238.275" x2="157.175" y2="-237.3" width="0.3048" layer="15"/>
+<wire x1="157.175" y1="-237.3" x2="156.5" y2="-237.3" width="0.3048" layer="15"/>
+<wire x1="156.5" y1="-237.3" x2="156.4" y2="-237.4" width="0.3048" layer="15"/>
+<wire x1="156.4" y1="-237.4" x2="156" y2="-237" width="0.3048" layer="15"/>
+<wire x1="156" y1="-237" x2="156" y2="-236.9" width="0.3048" layer="15"/>
+<wire x1="156" y1="-236.9" x2="156.2" y2="-236.7" width="0.3048" layer="15"/>
+<wire x1="156.2" y1="-236.7" x2="156.2" y2="-236.325" width="0.3048" layer="15"/>
+<wire x1="156.2" y1="-236.325" x2="155.3" y2="-235.425" width="0.3048" layer="15"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC3" pad="1"/>
@@ -4176,8 +4186,9 @@ IPC High Density</description>
 <wire x1="140" y1="-230.5" x2="141.75" y2="-232.25" width="0.1524" layer="1"/>
 <wire x1="147.125" y1="-241" x2="147.15" y2="-241.025" width="0.1524" layer="1"/>
 <wire x1="140" y1="-230.5" x2="140.09" y2="-230.41" width="0.1524" layer="1"/>
-<wire x1="140.09" y1="-230.41" x2="140.09" y2="-232.7622" width="0.1524" layer="1"/>
-<wire x1="140.09" y1="-232.7622" x2="138.9422" y2="-233.81" width="0.1524" layer="1"/>
+<wire x1="140.09" y1="-230.41" x2="140.09" y2="-233.044775" width="0.1524" layer="1"/>
+<wire x1="140.09" y1="-233.044775" x2="139.25174375" y2="-233.81" width="0.1524" layer="1"/>
+<wire x1="139.25174375" y1="-233.81" x2="138.9422" y2="-233.81" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$29">
 <contactref element="J1" pad="4"/>
